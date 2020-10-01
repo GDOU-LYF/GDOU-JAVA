@@ -1,4 +1,4 @@
-package japi;
+package cn.java.learn.D7;
 
 import java.util.Random;
 
