@@ -1,4 +1,4 @@
-package edu.gdou.JAVA.D1;
+package edu.gdou.test.Day1;
 
 //import java.util.Random;
 
