@@ -1,6 +1,6 @@
 package edu.gdou.excise;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Demo1_79_5 {//马鞍数
 
