@@ -12,7 +12,7 @@ public class SSocket {
         Socket server_accept=serverSocket.accept();
         ObjectInputStream in=new ObjectInputStream(server_accept.getInputStream());//read Client  Student Object->Server
         DataOutputStream out =new DataOutputStream(server_accept.getOutputStream());//write Message->Client
-        Student stu=null;
+        Student stu;
         for (int i = 0; i < 2; i++) {
             stu=(Student)in.readObject();
             System.out.println("get Client Object:"+stu);

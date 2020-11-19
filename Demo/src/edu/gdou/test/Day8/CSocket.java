@@ -10,7 +10,7 @@ public class CSocket {
         DataInputStream in=new DataInputStream(client.getInputStream());//read Server Massage->Client
         ObjectOutputStream out=new ObjectOutputStream(client.getOutputStream());//write Student Object->Server
 
-        Student stu=null;
+        Student stu;
         for (int i = 0; i < 2; i++) {
             stu=InputStudent();
             out.writeObject(stu);
